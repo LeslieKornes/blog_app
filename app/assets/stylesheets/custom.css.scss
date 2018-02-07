@@ -1,4 +1,4 @@
-$navbar-default-bg: #8B4513;
+$navbar-default-bg: #654321;
 
 
 @import "bootstrap-sprockets";
@@ -8,9 +8,9 @@ $navbar-default-bg: #8B4513;
     float: left;
     font-size: 1.7em;
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
+    font-family: fantasy;
 }
 
 #logo:hover {
@@ -30,17 +30,18 @@ $navbar-default-bg: #8B4513;
 }
 
 .jumbotron h1 {
-  color: #8B4513;
-  font-family: cursive;
-  background-color: tan;
+  color: #654321;
+  font-family: fantasy;
+  background-color: rgba(222, 184, 135, .5);
+  padding: 25px 0 10px 0;
 }
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: tan;
+  background-color: rgba(222, 184, 135, .5);
   border: none;
-  font-family: cursive;
-  color: #8B4513;
+  font-family: fantasy;
+  color: #654321;
   padding:0;
 }
 
