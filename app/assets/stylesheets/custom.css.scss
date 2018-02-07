@@ -1,4 +1,4 @@
-$navbar-default-bg: maroon;
+$navbar-default-bg: #8B4513;
 
 
 @import "bootstrap-sprockets";
@@ -26,16 +26,31 @@ $navbar-default-bg: maroon;
   background-image: asset-url('IMG_7114.JPG');
   background-size: cover;
   height: 550px;
+  background-position: bottom;
 }
 
 .jumbotron h1 {
-  color: tan;
+  color: #8B4513;
+  font-family: cursive;
+  background-color: tan;
 }
 
 .btn-xlarge {
   font-size: 1.7em;
   background-color: tan;
   border: none;
+  font-family: cursive;
+  color: #8B4513;
+  padding:0;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
 
 footer {
