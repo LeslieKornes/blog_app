@@ -9,6 +9,10 @@ gem 'rails', '~> 5.1.4'
 
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'will_paginate', '3.1.5'
+
+gem 'bootstrap-will_paginate', '1.0.0'
+
 gem 'sqlite3'
 
 gem 'puma', '~> 3.7'
